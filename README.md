@@ -1,4 +1,4 @@
-# 🛰️ Orbital EYE — Real-Time Satellite Tracker
+#  Orbital EYE — Real-Time Satellite Tracker
 
 > *Eye you can trust.*
 
@@ -6,7 +6,7 @@ A real-time, GPU-accelerated 2D satellite tracking visualizer built with Python 
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Live orbit tracking** — Real-time lat/lon/altitude computed via SGP4 propagation
 - **11 satellites preloaded** — ISS, Hubble, Tiangong, Starlink-1007, NOAA-20/21, GOES-18, Sentinel-2A, Terra, Aqua, Landsat-9
@@ -18,7 +18,7 @@ A real-time, GPU-accelerated 2D satellite tracking visualizer built with Python 
 
 ---
 
-## 🛰️ Tracked Satellites
+##  Tracked Satellites
 
 | Satellite     | NORAD  | Agency               | Orbit Type       | Altitude  |
 |---------------|--------|----------------------|------------------|-----------|
@@ -36,7 +36,7 @@ A real-time, GPU-accelerated 2D satellite tracking visualizer built with Python 
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 ### Required
 ```bash
@@ -63,7 +63,7 @@ pip install requests
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ```bash
 python orbital_eye.py
@@ -80,7 +80,7 @@ The window opens at **1600×900** pixels. The map renders immediately using bund
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 orbital_eye.py       # Single-file application — all logic included
@@ -97,7 +97,7 @@ orbital_eye.py       # Single-file application — all logic included
 
 ---
 
-## 🎨 Visual Theme
+##  Visual Theme
 
 The UI uses a dark terminal-green aesthetic:
 
@@ -112,7 +112,7 @@ The UI uses a dark terminal-green aesthetic:
 
 ---
 
-## 📡 TLE Data Source
+##  TLE Data Source
 
 Live TLEs are fetched from:
 ```
@@ -121,13 +121,13 @@ https://celestrak.org/satcat/tle.php?CATNR=<NORAD_ID>
 A status indicator in the panel shows whether data is `live` or `fallback`.
 
 ---
-🖼️ Visual Upgrades
+Visual Upgrades
 
 <img width="1719" height="977" alt="Screenshot 2026-02-24 at 2 23 36 PM" src="https://github.com/user-attachments/assets/54f978ec-7b28-4dc2-a001-81230aed0e6f" />
 
 ---
 
-## 👤 Author
+##  Author
 
 Built by **Gagandeep Singh Rathore**  
 MCA (AI/ML) · Uttaranchal University
