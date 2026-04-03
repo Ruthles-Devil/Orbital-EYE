@@ -1,4 +1,4 @@
-# 🛰️ Orbital EYE — Real-Time Satellite Orbital Tracking System
+#  Orbital EYE — Real-Time Satellite Orbital Tracking System
 
 > **A Technical Research Paper**
 > Graduate Level — Aerospace & Software Engineering
